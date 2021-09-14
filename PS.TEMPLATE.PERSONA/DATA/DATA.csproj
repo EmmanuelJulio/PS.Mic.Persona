@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Comands\" />
+    <Folder Include="Qeries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DOMINE\DOMINE.csproj" />
+    <ProjectReference Include="..\PS.TEMPLATE.APLICATION\APLICATION.csproj" />
+  </ItemGroup>
+
+</Project>
